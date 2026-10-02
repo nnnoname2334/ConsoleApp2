@@ -21,7 +21,7 @@ namespace TodoClient
         [JsonPropertyName("title")]
         public string Title { get; set; } = string.Empty;
 
-        [JsonPropertyName("completed")
+        [JsonPropertyName("completed"))
         public bool Completed { get; set; }
 
         public override string ToString()
